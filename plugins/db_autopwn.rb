@@ -25,7 +25,7 @@ class Plugin::DBAutopwn < Msf::Plugin
 		PWN_VERB = 2**6
 
 		def name
-			"DBAutopwn"
+			"db_autopwn"
 		end
 
 		def commands
@@ -535,7 +535,7 @@ class Plugin::DBAutopwn < Msf::Plugin
 	end
 
 	def cleanup
-		remove_console_dispatcher('credcollect')
+		remove_console_dispatcher('db_autopwn')
 	end
 
 	def name

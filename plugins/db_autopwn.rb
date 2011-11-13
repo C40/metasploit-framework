@@ -63,7 +63,7 @@ class Plugin::DBAutopwn < Msf::Plugin
 			print_error("Warning: The db_autopwn command is not officially supported and exists only in a branch.")
 			print_error("         This code is not well maintained, crashes systems, and crashes itself.")
 			print_error("         Use only if you understand it's current limitations/issues.")
-			print_error("         ISSUES/REQUESTS SHOULD GO TO NEINWECHTER VIA GITHUB")
+			print_error("         Minimal support and development via neinwechter on GitHub")
 			print_error("")
 
 			stamp = Time.now.to_f
